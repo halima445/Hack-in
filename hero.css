@@ -1,0 +1,164 @@
+/* RESET */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+/* BACKGROUND */
+body {
+  background-color: #c9f0c8;
+}
+
+/* MAIN COLUMN */
+.page {
+  min-height: 100vh;
+  padding: 30px 60px;
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+
+/* HEADER ROW */
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.home {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  font-weight: bold;
+  color: #6b4f1d;
+  
+}
+
+.home img {
+  width: 18px;
+}
+
+.hero-title {
+  font-size: 36px;
+  color: #6b4f1d;
+}
+
+.logo {
+  height: 40px;
+}
+
+/* FORM SECTION */
+.form-section {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.form-group label {
+  color: #2f6b2f;
+  font-weight: 600;
+}
+
+.form-group span {
+  color: red;
+}
+
+input {
+  height: 42px;
+  border-radius: 6px;
+  border: none;
+  padding: 0 12px;
+  font-size: 14px;
+}
+
+/* ROW FOR GENDER + AGE */
+.row {
+  display: flex;
+  gap: 400px;
+}
+
+.small {
+  flex: 1;
+  width: 30px;
+}
+
+.expect {
+  margin-top: 10px;
+  font-weight: 600;
+  color: #2f6b2f;
+}
+
+/* CARDS SECTION */
+.cards {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  margin: 20px;
+  margin-bottom: 10px;
+}
+
+.card {
+  width: 220px;
+  padding: 20px;
+  border-radius: 12px;
+  text-align: center;
+  height: 250px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+}
+
+.card img {
+  height: 40px;
+  margin-bottom: 10px;
+}
+
+.card h3 {
+  margin-bottom: 8px;
+}
+
+.card p {
+  font-size: 14px;
+}
+
+/* CARD COLORS */
+.light {
+  background-color: #fff6e5;
+  
+}
+
+.soil {
+  background-color: #e8f7eb;
+}
+
+.water {
+  background-color: #e8f2ff;
+}
+
+.yellow {
+    color: #F3A218
+}
+
+.green {
+    color: #A4DD9E
+}
+
+.blue {
+    color: #1D91CC
+}
+
+.title-Education {
+    font-size: 36px;
+    color: #F3A218;
+    font-weight: bold;
+    margin-left: 100;
+}

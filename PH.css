@@ -1,0 +1,215 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+/* BACKGROUND */
+body {
+  background-color: #c9f0c8;
+}
+
+/* MAIN COLUMN */
+.page {
+  min-height: 100vh;
+  padding: 30px 60px;
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+
+/* HEADER ROW */
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.home {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  font-weight: bold;
+  color: #6b4f1d;
+  
+}
+
+.home img {
+  width: 18px;
+}
+
+.hero-title {
+  font-size: 36px;
+  color: #6b4f1d;
+}
+
+.logo {
+  height: 40px;
+}
+
+/* FORM SECTION */
+
+
+.form-section {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.form-group label {
+  color: #2f6b2f;
+  font-weight: 600;
+}
+
+.form-group > label span {
+  color: red;
+}
+
+input {
+  height: 42px;
+  border-radius: 6px;
+  border: none;
+  padding: 0 12px;
+  font-size: 14px;
+}
+
+/* ROW FOR GENDER + AGE */
+.row {
+  display: flex;
+  gap: 400px;
+}
+
+.small {
+  flex: 1;
+  width: 30px;
+}
+
+.expect {
+  margin-top: 10px;
+  font-weight: 600;
+  color: #2f6b2f;
+}
+.title-physical-health {
+    font-size: 36px;
+    color: #1D91CC;
+    font-weight: bold;
+    margin-left:100px;
+}
+.field {
+    background-color: white;
+    padding: 14px 16px;
+    border-radius: 8px;
+    height: 170px;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+/* CHECKBOX FIELD */
+.checkbox-group {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-top: 6px;
+}
+
+/* ONE CHECKBOX + TEXT */
+.checkbox-option {
+  display: flex;
+  align-items: center;
+  gap: 10px;          /* space between square and text */
+  font-weight: normal;
+  cursor: pointer;
+}
+
+/* Fix checkbox size (optional but clean) */
+.checkbox-option input[type="checkbox"] {
+  width: 16px;
+  height: 16px;
+}
+
+.checkbox-option span {
+  color: #333;        /* normal text color */
+  font-weight: normal;
+}
+
+.checkbox-group {
+  background-color: white;
+  padding: 14px 16px;
+  border-radius: 8px;
+}
+
+.title-psychological-support {
+    font-size: 36px;
+    color: #62955D;
+    font-weight: bold;
+    margin-left: 100px;
+}
+
+
+
+
+
+
+
+
+
+/* EMOJI OPTIONS ROW */
+.emoji-options {
+  display: flex;
+  justify-content: space-around; /* put emojis in a row */
+  margin-top: 20px;
+}
+
+/* EACH EMOJI OPTION */
+.emoji-option {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  cursor: pointer;
+}
+
+/* HIDE RADIO BUTTONS */
+.emoji-option input[type="radio"] {
+  display: none;
+}
+
+/* EMOJI IMAGE */
+.emoji {
+  width: 60px;
+  height: 60px;
+  margin-bottom: 8px;
+  transition: transform 0.2s;
+}
+
+/* LABEL BOX BELOW EMOJI */
+.emoji-label-box {
+  background-color: white;
+  padding: 4px 12px;
+  border-radius: 20px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+/* LABEL TEXT */
+.emoji-label {
+  font-size: 14px;
+  color: #333;
+  font-weight: 500;
+  text-align: center;
+  display: block;
+}
+
+/* ENLARGE EMOJI WHEN SELECTED */
+.emoji-option input[type="radio"]:checked + .emoji {
+  transform: scale(1.3);
+}
