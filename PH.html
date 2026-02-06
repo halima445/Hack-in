@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Physical Health Form</title>
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <div class="logo">
+            <img src="Hack-in/Hack-in/images/Vector.svg" alt="Nabta logo">
+        </div>
+
+        <a href="#" class="home-link">
+            Home <img src="Hack-in/Hack-in/images/arrow-up-right.svg" alt="Arrow" class="arrow">
+        </a>
+    </header>
+     <!-- Form Container -->
+    <main class="form-container">
+        <h1>Physical Health</h1>
+
+        <form id="health-form">
+            <!-- Full Name -->
+             <div>
+            <label for="full-name">Full name <span class="required">*</span></label>
+             </div>
+            <input type="text" id="full-name" name="full-name" placeholder="Your full name" required>
+
+            <!-- Age -->
+            <br><br>
+            <label for="age">Enter your age <span class="required">*</span></label>
+            <br>
+            <input type="number" id="age" name="age" placeholder="You must be at least 13 years old" min="13" required>
+
+            <!-- Emergency Health Needs Dropdown -->
+            <br><br>
+            <select id="health-needs" name="health-needs">
+                <option value="" disabled selected>Choose your emergency health needs</option>
+                <option value="medications">Medications</option>
+                <option value="emergency-surgeries">Emergency surgeries</option>
+                <option value="label1">Label 1</option>
+            </select>
+        </form>
+    </main>
+        <script src="Hack-in\script.js"></script>
+</body>
+</html>
