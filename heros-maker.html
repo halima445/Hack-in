@@ -17,7 +17,7 @@
         <img src="images\arrow-up-right.svg" alt="arrow" />
       </div>
 
-      <h1 class="hero-title">Hero</h1>
+      <h1 class="hero-title">Hero's Maker</h1>
 
       <img src="images\Vector.svg" alt="Nabta logo" class="logo" />
     </div>
@@ -45,6 +45,70 @@
         <label>Password <span>*</span></label>
         <input type="password"/>
       </div>
+
+      <div class="form-group">
+        <label>Country/City you're located in <span>*</span></label>
+        <input type="text" />
+      </div>
+
+      <div class="form-group">
+        <label>What is your occupation/How you can help? <span>*</span></label>
+
+        <!-- ONE white box for all options -->
+        <div class="radio-group">
+
+         <label class="radio-option">
+         <input type="radio" name="help_type" value="consultation">
+        <span>Medical/Healthcare support (doctor, nurse, pharmacist)</span>
+        </label>
+
+        <label class="radio-option">
+        <input type="radio" name="help_type" value="supplies">
+        <span>Mental health support (counselor, psychologist, therapist)</span>
+        </label>
+
+        <label class="radio-option">
+        <input type="radio" name="help_type" value="surgery">
+        <span>Education support (teacher, tutor)</span>
+        </label>
+
+        <label class="radio-option">
+         <input type="radio" name="help_type" value="others">
+        <span>Others</span>
+        </label>
+
+        </div>
+      </div>
+
+      <div class="form-group">
+        <label>Please upload CV/Professional certificate to verify your qualifications in the chosen domain above <span>*</span></label>
+
+        <!-- FILE UPLOAD FIELD -->
+         <div class="file-upload">
+
+         <!-- Hidden real file input -->
+        <input
+         type="file"
+        id="certificate"
+        name="certificate"
+        class="file-input"
+        />
+
+        <!-- Fake input (visual only) -->
+        <div class="file-placeholder">
+          Upload 1 compatible file : PDF or document. 10MB max
+        </div>
+
+        <!-- Button on the right -->
+        <label for="certificate" class="file-button">
+        <img src="images\import.svg" alt="Add file icon">
+        <p>Add a file</p>
+        </label>
+
+    </div>
+</div>
+
+
     </div>
  </body>   
  </html>     

@@ -67,9 +67,10 @@ body {
   font-weight: 600;
 }
 
-.form-group span {
+.form-group  span {
   color: red;
 }
+
 
 input {
   height: 42px;
@@ -161,4 +162,97 @@ input {
     color: #F3A218;
     font-weight: bold;
     margin-left: 100;
+}
+
+/* RADIO GROUP WHITE BOX HERO MAKER */
+.radio-group {
+  background-color: white;
+  padding: 14px 16px;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+/* EACH RADIO OPTION */
+.radio-option {
+  display: flex;
+  align-items: center;
+  gap: 10px;          /* space between circle and text */
+  cursor: pointer;
+}
+
+/* RADIO CIRCLE SIZE */
+.radio-option input[type="radio"] {
+  width: 16px;
+  height: 16px;
+}
+
+/* RADIO TEXT */
+.radio-option span {
+  color: #333;
+  font-weight: normal;
+}
+
+
+
+
+
+
+/* FILE UPLOAD CONTAINER */
+.file-upload {
+  display: flex;
+  align-items: center;
+  background-color: white;
+  border-radius: 8px;
+  padding: 6px;
+}
+
+/* HIDE REAL INPUT */
+.file-input {
+  display: none;
+}
+
+/* LEFT PART (FAKE INPUT) */
+.file-placeholder {
+  flex: 1;
+  padding: 10px 12px;
+  font-size: 14px;
+  color: #777;
+}
+
+/* RIGHT BUTTON */
+.file-button {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  background-color: transparent;   /* transparent background */
+  color: #1D91CC;                  /* blue text */
+  padding: 10px 14px;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 14px;
+  font-weight: 600;
+  border: 1.5px solid #1D91CC; /* blue wireframe */
+}
+
+
+/* ICON SIZE */
+.file-button img {
+  width: 16px;
+  height: 16px;
+}
+.link {
+  color: #F3A218;
+  text-decoration: none;
+}
+
+#link-soil {
+  color: #A4DD9E;
+  text-decoration: none;
+}
+
+#link-water {
+  color: #1D91CC;
+  text-decoration: none;
 }
